@@ -3,34 +3,212 @@ html,
 body {
   height: 100%;
   width: 100%;
+  /* / 1025px; */
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  font-family: Khula;
+}
+header {
+  font-family: Inter;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 39.36px;
+  color: #000000;
+  opacity: 0px;
+  margin-top: 50px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f2f2f2;
+}
+.switch-btn {
+  height: 50px;
+  flex: 1;
+  width: 300px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.switch-btn:hover {
+  background: #000000;
+  cursor: pointer;
+  color: #ffffff;
+}
+.switch-btn:focus {
+  background: #000000;
+  color: #ffffff;
+  align-items: center;
+}
+.switch-btn:active {
+  background: #000000;
+  color: #ffffff;
+  align-items: center;
+}
+.switch-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Align items vertically */
+}
+
+.switch-btn span {
+  margin-right: 5px; /* Adjust spacing between the emoji and text */
+}
+#kids-btn:focus {
+  .fluent-emoji-high-contrast--baby {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%23000'%3E%3Cpath d='M12.941 3.07A4.243 4.243 0 0 1 15.82 2c1.033.014 1.981.4 2.714 1.029a4.261 4.261 0 0 1 1.372 2.238c.076.32.116.652.114.993c0 1.88-1.21 3.47-2.89 4.04a.542.542 0 0 1-.57-.88c.5-.57.8-1.31.81-2.13A3.23 3.23 0 0 0 16.426 5h-2.329a7.865 7.865 0 0 0-4.706 1.59c-2.353 1.773-3.642 4.736-3.35 7.788l.248 2.243a1 1 0 0 1-.623 1.038a2.251 2.251 0 0 0 .477 4.313a1 1 0 0 1 .834.852c.297 2.176 1.458 3.688 3.076 4.683C11.7 28.519 13.837 29 16 29c2.163 0 4.3-.481 5.947-1.493c1.618-.995 2.779-2.507 3.076-4.683a1 1 0 0 1 .834-.852a2.25 2.25 0 0 0 .477-4.313a1 1 0 0 1-.623-1.038l.248-2.243c.292-3.052-.997-6.015-3.35-7.788a8.105 8.105 0 0 0-1.623-.944a5.2 5.2 0 0 0-.914-2.398a9.993 9.993 0 0 1 3.736 1.741l.003.002c2.93 2.207 4.497 5.86 4.138 9.586l-.001.014l-.174 1.568a4.251 4.251 0 0 1-.887 7.609c-.524 2.482-1.99 4.273-3.892 5.442C20.953 30.466 18.425 31 16 31c-2.426 0-4.953-.534-6.995-1.79c-1.902-1.17-3.367-2.96-3.893-5.442a4.251 4.251 0 0 1-.886-7.609l-.174-1.568l-.001-.014c-.36-3.725 1.208-7.38 4.138-9.586l.003-.002a9.93 9.93 0 0 1 4.749-1.92'/%3E%3Cpath d='M12.985 23.23a6.41 6.41 0 0 0 3.007.733a6.54 6.54 0 0 0 3.027-.733c.299-.15.607.191.428.472a4.104 4.104 0 0 1-3.445 1.887a4.09 4.09 0 0 1-3.445-1.887c-.19-.29.13-.632.428-.472m3.017-.58c.483 0 .914-.245 1.16-.613a.504.504 0 0 0-.42-.787h-1.479c-.41 0-.657.46-.421.787c.246.378.678.613 1.16.613M10.71 17c-1.61 0-2.97 1.126-3.34 2.648c-.11.436.22.852.66.852H9.1a2.2 2.2 0 0 1 2.12-2.78c1.22 0 2.2.99 2.21 2.2c0 .2-.03.39-.08.58h.18c.35 0 .63-.325.56-.68c-.31-1.603-1.71-2.82-3.38-2.82m10 0c1.61 0 2.97 1.126 3.34 2.648a.683.683 0 0 1-.66.852h-1.07a2.2 2.2 0 0 0-2.12-2.78c-1.22 0-2.21.99-2.21 2.2c0 .2.03.39.08.58h-.18a.573.573 0 0 1-.56-.68c.31-1.603 1.7-2.82 3.38-2.82'/%3E%3Cpath d='M12.48 19.92c0-.7-.56-1.26-1.26-1.26c-.273 0-.524.085-.729.23a.39.39 0 0 1-.438.55a1.269 1.269 0 0 0 .047 1.06h2.23c.09-.17.15-.37.15-.58m7.26-1.174c.143-.055.298-.086.46-.086c.7 0 1.26.56 1.26 1.26c0 .21-.05.41-.14.58h-2.23c-.1-.17-.15-.37-.15-.58c0-.261.078-.503.212-.704a.39.39 0 1 0 .588-.47M9.648 15.551c.521-.185 1.268-.326 2.255-.233a.5.5 0 1 0 .094-.995c-1.133-.107-2.026.052-2.685.286a.5.5 0 0 0 .336.942m12.57-.941c-.659-.235-1.552-.394-2.685-.287a.5.5 0 1 0 .094.995c.987-.093 1.734.048 2.255.233a.5.5 0 0 0 .336-.942'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+}
+#men-btn:focus {
+  .fluent-emoji-high-contrast--boy {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23000' d='M9.608 14.563c.521-.185 1.268-.326 2.255-.233a.5.5 0 1 0 .094-.996c-1.133-.106-2.026.053-2.685.287a.5.5 0 1 0 .336.942m12.57-.942c-.66-.234-1.552-.393-2.685-.287a.5.5 0 1 0 .094.996c.987-.093 1.734.048 2.255.233a.5.5 0 0 0 .336-.942M11.2 15.53c-1.45 0-2.67 1-3.01 2.34c-.1.38.2.75.6.75h.958a1.985 1.985 0 0 1 1.912-2.5a1.985 1.985 0 0 1 1.913 2.5h.157c.32 0 .57-.29.51-.6a3.093 3.093 0 0 0-3.04-2.49m9.62 0c1.45 0 2.67 1 3.01 2.34c.1.38-.2.75-.6.75h-.958a1.985 1.985 0 0 0-1.912-2.5a1.985 1.985 0 0 0-1.913 2.5h-.157c-.32 0-.57-.29-.51-.6a3.093 3.093 0 0 1 3.04-2.49'/%3E%3Cpath fill='%23000' d='M19.429 17.459a1.124 1.124 0 0 0-.199.641c0 .19.05.37.13.53h2a1.129 1.129 0 0 0-1.398-1.588a.35.35 0 1 1-.533.417m-6.639.641a1.129 1.129 0 0 0-1.575-1.04a.349.349 0 0 1-.235.61a.35.35 0 0 1-.289-.152a1.13 1.13 0 0 0-.031 1.112h2c.08-.16.13-.34.13-.53m3.203 3.9c.68 0 1.27-.345 1.63-.873c.32-.477-.02-1.127-.59-1.127h-2.07c-.57 0-.91.65-.59 1.127c.35.528.95.873 1.62.873m.009 1.174a6.473 6.473 0 0 1-3.016-.733a.328.328 0 0 0-.429.472a4.1 4.1 0 0 0 3.445 1.887a4.1 4.1 0 0 0 3.445-1.887c.18-.281-.13-.622-.43-.472a6.354 6.354 0 0 1-3.015.733'/%3E%3Cpath fill='%23000' d='M25.107 4.726c.246.55.688.98 1.238 1.2a4.08 4.08 0 0 1 2.534 3.892a4.093 4.093 0 0 1-1.032 2.632a2.97 2.97 0 0 0-.67 1.289a4.251 4.251 0 0 1-.372 8.134C25.865 27.38 21.359 31 16.005 31c-5.355 0-9.86-3.622-10.8-9.13a4.251 4.251 0 0 1-.39-8.122l-.058-1.718c-.176-4.336 2.847-8.038 6.927-8.86a4.426 4.426 0 0 1 2.855-1.176c.953-.03 1.836.25 2.573.74c.442.3 1.022.3 1.464 0c.736-.49 1.63-.77 2.583-.74c1.768.06 3.28 1.171 3.948 2.732M6.76 12.073l.082 2.418a1 1 0 0 1-.875 1.027a2.25 2.25 0 0 0 .173 4.48a1 1 0 0 1 .947.892C7.612 25.792 11.41 29 16.005 29c4.595 0 8.393-3.208 8.918-8.11a1 1 0 0 1 .95-.892a2.25 2.25 0 0 0 .147-4.484a1 1 0 0 1-.89-1.04l.093-2.042a2.152 2.152 0 0 0-1.285-.423H18.86a6.63 6.63 0 0 1-5.313-2.681a.206.206 0 0 0-.108-.08h-.128a.207.207 0 0 0-.157.21v1.73a.817.817 0 0 1-.806.821c-1.728 0-3.201-1.1-3.81-2.641a.176.176 0 0 0-.216-.11a.18.18 0 0 0-.138.15c-.157.93-.59 1.79-1.228 2.451c-.068.07-.134.142-.196.214'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+}
+#women-btn:focus {
+  .fluent-emoji-high-contrast--child {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23000' d='M9.883 13.263c.521-.186 1.268-.326 2.255-.233a.499.499 0 1 0 .093-.995c-1.133-.107-2.026.052-2.685.287a.5.5 0 1 0 .337.941m9.979-.234c.987-.093 1.733.048 2.255.233a.5.5 0 1 0 .336-.942c-.659-.235-1.553-.394-2.686-.287a.5.5 0 0 0 .095.996M16.004 21c.67 0 1.27-.346 1.619-.873c.32-.478-.02-1.127-.59-1.127h-2.07c-.57 0-.91.649-.59 1.127c.36.527.96.873 1.631.873m-4.56-4.606c-.157 0-.305.031-.439.088a.336.336 0 0 1 .113.251a.343.343 0 0 1-.346.339a.35.35 0 0 1-.285-.147a1.073 1.073 0 0 0-.159.563c0 .184.049.357.128.513h1.974a1.13 1.13 0 0 0 .128-.513a1.1 1.1 0 0 0-1.114-1.094m1.955 1.093c0 .18-.019.342-.066.503h.155c.316 0 .563-.28.504-.58c-.277-1.375-1.511-2.41-3.002-2.41c-1.431 0-2.636.968-2.971 2.265c-.099.367.197.725.593.725h.945a2.161 2.161 0 0 1-.067-.503c0-1.055.879-1.916 1.955-1.916s1.954.862 1.954 1.916m15.399-4.113c.117-.194.202-.408.202-.649v-1.873a6.362 6.362 0 0 0-3.37-5.657l-.35-.19h.86a.93.93 0 0 0 .88-1.221A4.002 4.002 0 0 0 23.21 1H12.38c-1.22 0-2.21.921-2.35 2.113c-.01 0-.022.003-.035.005c-.013.002-.025.005-.035.005h-.44C5.92 3.123 3 6.046 3 9.651v2.904c0 .32.058.618.176.866A4.368 4.368 0 0 0 2 16.387a4.362 4.362 0 0 0 2.971 4.131c.005.029.014.06.019.089v3.046c0 2.35 1.91 4.26 4.26 4.26h.142A10.699 10.699 0 0 0 15.75 30c2.359 0 4.554-.745 6.365-2.088h.635c2.35 0 4.26-1.91 4.26-4.26v-3.144A4.339 4.339 0 0 0 30 16.386c0-1.168-.46-2.226-1.202-3.012m-3.111 5.358h-.037l-.903-.014l-.105.896c-.047.396-.119.776-.203 1.148a9.84 9.84 0 0 1-1.487 3.454C21.307 26.604 18.68 28 15.75 28c-2.716 0-5.166-1.195-6.819-3.263c-.812-1.016-1.429-2.243-1.789-3.646a11.117 11.117 0 0 1-.286-1.504l-.089-.771l-.768-.106C4.877 18.558 4 17.581 4 16.387c0-.728.339-1.359.848-1.788l.052 1.42c.02.551.55.981 1.1.981v-4.227c.122-.99.782-1.76 1.81-1.76h1.24c1.95 0 3.58-1.372 3.99-3.194a6.798 6.798 0 0 0 5.76 3.194h5.17c1.13 0 1.88.838 2.03 1.929V17c.55 0 1.08-.43 1.1-.981l.047-1.153c.445.423.853.956.853 1.521c0 1.304-1.045 2.345-2.313 2.345m-6.658 2.908c-.879.473-1.907.733-3.016.733a6.47 6.47 0 0 1-3.016-.733a.329.329 0 0 0-.429.473a4.088 4.088 0 0 0 6.89 0c.181-.282-.129-.624-.429-.473m1.98-6.64c-1.49 0-2.724 1.035-3.001 2.41c-.059.3.188.58.504.58h.155a1.722 1.722 0 0 1-.067-.503c0-1.055.878-1.916 1.954-1.916c1.077 0 1.955.861 1.955 1.916c0 .171-.029.341-.066.503h.945c.395 0 .691-.358.593-.726c-.335-1.296-1.54-2.264-2.972-2.264m-.454 1.394c-.138 0-.27.024-.392.069a.335.335 0 0 1 .136.27a.342.342 0 0 1-.345.339a.345.345 0 0 1-.317-.204a1.069 1.069 0 0 0-.197.62c0 .184.049.357.128.513h1.974a1.13 1.13 0 0 0 .129-.513a1.102 1.102 0 0 0-1.116-1.094'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  /* // */
+  max-width: 230px;
+  /* Limit product width */
+}
+.product-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap; /* Allow products to wrap to the next line */
+  gap: 20px; /* Adjust gap between products */
+}
+.product img {
+  width: 230px;
+  flex-grow: 1;
+  height: 306px;
+  border-radius: 10px;
+  max-width: 230px; /* Limit image width */
+}
+.product span {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.product span p {
+  font-family: Khula;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+  flex-shrink: 1; /* Allow the element to shrink */
+  max-width: 126px;
+  min-width: 0; /* Set a maximum width for the title */
+  overflow: hidden; /* Hide any overflow text */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for overflow text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.product span div {
+  font-family: Khula; /* Apply font style */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 400; /* Adjust font weight */
+  margin-right: 20px;
+}
+.product p {
+  font-weight: bolder;
   margin: 0;
 }
-body {
+
+.price-container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
-}
-a {
-  display: inline-block;
-  color: lightgrey;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  white-space: nowrap;
-  padding: 12px;
-  border: 1px solid white;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: all 0.15s ease-in-out;
+  gap: 6px;
 }
 
-a:hover {
-  background: rgba(0, 0, 0, 0.23);
-  color: white;
-  transform: scale(1.03);
-  text-decoration: none;
+.price-container p.compare-price {
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: #8f8f8f;
+  font-family: Khula;
 }
-a:active {
-  transform: scale(0.98);
+.price-container div.discount {
+  color: #ff3737;
+  font-family: Khula;
+  font-weight: bold;
+}
+.add-to-cart-btn {
+  width: 100%;
+  border: none;
+  background: #000000;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  height: 40px;
+}
+.add-to-cart-btn:hover {
+  cursor: pointer;
+}
+.products-section-div {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  margin-top: 30px;
+}
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+  /* Tablet screen styles */
+  body {
+    margin: 50px auto; /* Center body with some margin */
+  }
 }
 
+@media screen and (min-width: 1025px) {
+  /* Desktop screen styles */
+  body {
+    width: 1025px; /* Set fixed width for desktop */
+  }
+}

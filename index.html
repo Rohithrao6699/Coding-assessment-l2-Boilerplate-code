@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Category Tabs</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
-</head>
-
-<body>
-    <!-- Your code goes here -->
-    <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
-    </div>
-    <!-- Happy coding 😊 -->
+  <body>
+    <header>SELECT YOUR CHOICE</header>
+    <nav>
+      <button class="switch-btn" id="men-btn">
+        <span class="fluent-emoji-high-contrast--boy"></span>Men
+      </button>
+      <button class="switch-btn" id="women-btn">
+        <span class="fluent-emoji-high-contrast--child"></span>Women
+      </button>
+      <button class="switch-btn" id="kids-btn">
+        <span class="fluent-emoji-high-contrast--baby"></span>Kids
+      </button>
+    </nav>
+    <section id="products-section" class="product-list">
+      <div class="products-section-div">Click on the categories above!</div>
+    </section>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
